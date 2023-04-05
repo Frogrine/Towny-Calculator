@@ -13,21 +13,21 @@ To use it, you just have to input the amount of Gold (the currency) that you hav
 **This is a sample of the code of one of the buttons:**
 
 ```csharp
-   //check for errors
-   try
-   {   
-       //assign a custom variable to the "chunks1" text field:
-       int chunks = int.Parse(chunks1.Text);
+//check for errors
+try
+{   
+    //assign a custom variable to the "chunks1" text field:
+    int chunks = int.Parse(chunks1.Text);
 
-       //do the equation:
-       double math = chunks * 16;
-         
-       //set the value of the goldRES1 field:
-       goldRES1.Text = math.ToString();
-   } catch
-   {
-       //display the error message
-       MessageBox.Show("'It may not be empty \nnor messed up'\n\t\t~ Grandpa", "Read the quote!", MessageBoxButtons.OK);
+    //do the equation:
+    double math = chunks * 16;
+      
+    //set the value of the goldRES1 field:
+    goldRES1.Text = math.ToString();
+} catch
+{
+    //display the error message
+    MessageBox.Show("'It may not be empty \nnor messed up'\n\t\t~ Grandpa", "Read the quote!", MessageBoxButtons.OK);
 ```
 
 **It's just the same code twice, but with some slight changes.**
