@@ -32,4 +32,4 @@ try
 
 **It's just the same code twice, but with some slight changes.**
 
-> To be honest, it's just simple code, so you can code it yourself or even make a better version of it.
+> To be honest, it's just simple code, so you can code it yourself or even make a better version of it (*but you still have to find out how to make the other button work*).
